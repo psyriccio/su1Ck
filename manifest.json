@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "su1Ck - ",
+    "short_name": "su1Ck",
+    "version": "0.0.1",
+    "description": "Делает из 'users.v8.1c.ru' вебсайт, которым можно пользоваться  ",
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "downloads"
+    ],
+    "icons": {
+        "16": "su1ck16.png",
+        "48": "su1ck48.png",
+        "128": "su1ck128.png"
+    },
+    "browser_action": {
+        "default_title": "su1Ck",
+        "default_icon": "su1ck48.png",
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "background": {
+        "persistent": false,
+        "scripts": [
+            "su1ck.js"
+        ]
+    }
+}
