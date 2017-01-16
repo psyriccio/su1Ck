@@ -34,5 +34,6 @@ chrome.downloads.onDeterminingFilename.addListener(function(item, __suggest) {
             };
         }
     }
+    fnm.
     if (fnm != "1c-") suggest(fnm, 'prompt');
 });
